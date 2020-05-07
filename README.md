@@ -8,9 +8,11 @@ Then it synthesizes output by combining them.
 To run the program, python3 is required.
 Using anaconda is convenient.
 I have tested the program on windows10 and Linux.
+Input wav files must be Monaural/16kHz/16bit PCM.
 
 Usage:
 python voicechanger.py samplewav\sawtooth100hz.wav samplewav\toukoudai.wav out.wav
+
 
 2つの音声ファイルfile1.wav, file2.wavを受け取り、初めの音声から
 音源情報（高ケプストラム成分）を抽出、2番目の音声からスペクトラム
@@ -21,6 +23,7 @@ python voicechanger.py samplewav\sawtooth100hz.wav samplewav\toukoudai.wav out.w
 python3をインストール
 anacondaを用いるのが便利
 windows10とlinuxで動作を確認
+入力音声ファイルはMonaural/16kHz/16bit PCM形式で用意してください
 
 使用例：
 python voicechanger.py samplewav\sawtooth100hz.wav samplewav\sciencecafe.wav out.wav
