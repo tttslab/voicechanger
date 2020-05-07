@@ -1,2 +1,30 @@
 # voicechanger
-Decompose the input speech to sound source and filter, and replace the sound source with the second input.
+The program takes two sound files file1.wav and file2.wav.
+It extracts sound source information (higher quefrency component)
+from the first input, and filter information (lower quefrency component)
+from the second input. 
+Then it synthesizes output by combining them.
+
+To run the program, python3 is required.
+Using anaconda is convenient.
+I have tested the program on windows10 and Linux.
+
+Usage:
+python voicechanger.py samplewav\sawtooth100hz.wav samplewav\toukoudai.wav out.wav
+
+2つの音声ファイルfile1.wav, file2.wavを受け取り、初めの音声から
+音源情報（高ケプストラム成分）を抽出、2番目の音声からスペクトラム
+包絡（低ケプストラム成分）を抽出する。そして、それらを再合成した
+音声を出力する。
+
+準備：
+python3をインストール
+anacondaを用いるのが便利
+windows10とlinuxで動作を確認
+
+使用例：
+python voicechanger.py samplewav\sawtooth100hz.wav samplewav\sciencecafe.wav out.wav
+
+# Written by Takahiro Shinozaki
+# Tokyo Institute of Technology
+# 2017/2/15
