@@ -26,7 +26,7 @@ windows10とlinuxで動作を確認
 入力音声ファイルはMonaural/16kHz/16bit PCM形式で用意してください
 
 使用例：
-python voicechanger.py samplewav\sawtooth100hz.wav samplewav\sciencecafe.wav out.wav
+python voicechanger.py samplewav\sawtooth100hz.wav samplewav\toukoudai.wav out.wav
 
 # Written by Takahiro Shinozaki
 # Tokyo Institute of Technology
